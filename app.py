@@ -115,4 +115,4 @@ with gr.Blocks() as interface:
     cleanup_button.click(fn=cleanup, outputs=output)
 
 # Launch the interface
-interface.launch()
+interface.launch(server_name="localhost", server_port=7860)
