@@ -1,0 +1,8 @@
+gradio
+PyPDF2
+pinecone_client
+python-dotenv
+sentencepiece
+tensorflow
+tf-keras
+cohere
