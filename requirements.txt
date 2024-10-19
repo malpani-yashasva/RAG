@@ -6,3 +6,6 @@ sentencepiece
 tensorflow
 tf-keras
 cohere
+fastapi
+gunicorn
+uvicorn

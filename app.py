@@ -113,6 +113,3 @@ with gr.Blocks() as interface:
     submit_pdf_button.click(fn=process_pdf, inputs=pdf_file_input, outputs=output)
     submit_query_button.click(fn=process_query, inputs=query_input, outputs=output)
     cleanup_button.click(fn=cleanup, outputs=output)
-
-# Launch the interface
-interface.launch(server_name="localhost", server_port=7860)
