@@ -1,6 +1,6 @@
 gradio
 PyPDF2
-pinecone_client
+pinecone
 python-dotenv
 sentencepiece
 tensorflow
